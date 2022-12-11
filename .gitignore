@@ -15,4 +15,4 @@
 
 # 예외
 !제외할 파일명.txt
-!empty_dir/.gitkeep
+/.idea/
