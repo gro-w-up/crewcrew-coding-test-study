@@ -1,1 +1,0 @@
-print("Hello, crewcrew-coding-test-study")
