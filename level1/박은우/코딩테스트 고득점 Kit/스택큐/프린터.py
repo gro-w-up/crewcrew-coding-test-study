@@ -5,10 +5,13 @@ def solution(priorities, location):
     for index in range(len(priorities)):
         index_list.append(index)
 
+    # copy -> deepcopy
     priorities_list = priorities.copy()
 
     i = 0
     while True:
+        # queue O(n)
+        # dequeue O(1)
         if priorities_list[i] < max(priorities_list[i+1:]):
             index_list.append(index_list.pop(i))
             priorities_list.append(priorities_list.pop(i))
