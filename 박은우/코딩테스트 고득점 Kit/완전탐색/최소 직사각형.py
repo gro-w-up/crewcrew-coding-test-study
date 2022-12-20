@@ -3,10 +3,10 @@ def solution(sizes):
     for x in sizes:
         print(x, ', max : ', max(x), ', min : ', min(x))
 
-    width = max((max(x) for x in sizes))
-    height = max((min(x) for x in sizes))
+    max_width = max((max(width) for width in sizes))
+    max_height = max((min(height) for height in sizes))
 
-    return width * height
+    return max_width * max_height
 
 print(solution([[60, 50], [30, 70], [60, 30], [80, 40]]))
 print(solution([[10, 7], [12, 3], [8, 15], [14, 7], [5, 15]]))
