@@ -9,7 +9,7 @@
 def solution(array, commands):
     result = list()
     for start, end, index in commands:
-    # 해당 인덱스갖고오기
+    # 해당 인덱스갖고오기 시작 숫자~ 끝숫자
         splitArray = array[start-1:end]
     # 정렬
         splitArray.sort()
