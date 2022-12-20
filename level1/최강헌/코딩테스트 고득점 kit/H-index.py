@@ -16,5 +16,5 @@ def solution(citations):
             return i
 
     return len(citations)
-#print('result 1 : ', solution([3, 0, 6, 1, 5]))
+print('result 1 : ', solution([3, 0, 6, 1, 5]))
 print('result 1 : ', solution([10, 10, 10, 10, 10]))
