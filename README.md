@@ -24,11 +24,14 @@
 |2|완전탐색|전력망을 둘로 나누기|[전력망을 둘로 나누기]|
 |2|완전탐색|피로도|[피로도]|
 
-
-
 ### 3주차 (탐욕법, 동적계획법)
 |레벨|구분|문제|문제 링크|
 |--|----|----|--------|
+|1|탐욕법|체육복|[체육법]|
+|2|탐욕법|조이스틱|[조이스틱]|
+|2|탐욕법|큰 수 만들기|[큰 수 만들기]|
+|3|동적계획법|N으로 표현|[N으로 표현]|
+|3|동적계획법|등굣길|[등굣길]|
 
 ### 4주차 (깊이/너비 우선 탐색, 이분탐색)
 |레벨|구분|문제|문제 링크|
@@ -47,3 +50,9 @@
 [H-index]:https://school.programmers.co.kr/learn/courses/30/lessons/42747
 [최소직사각형]:https://school.programmers.co.kr/learn/courses/30/lessons/86491
 [피로도]:https://school.programmers.co.kr/learn/courses/30/lessons/87946
+
+[체육복]:https://school.programmers.co.kr/learn/courses/30/lessons/42862
+[조이스틱]:https://school.programmers.co.kr/learn/courses/30/lessons/42860
+[큰 수 만들기]:https://school.programmers.co.kr/learn/courses/30/lessons/42883
+[N으로 표현]:https://school.programmers.co.kr/learn/courses/30/lessons/42895
+[등굣길]:https://school.programmers.co.kr/learn/courses/30/lessons/42898
