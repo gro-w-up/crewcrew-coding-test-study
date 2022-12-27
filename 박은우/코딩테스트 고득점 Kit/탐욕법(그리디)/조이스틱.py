@@ -12,7 +12,7 @@ def solution(name):
         # print('전달받은 문자 : {}, A부터 시작: {}, Z부터 시작: {}'.format(char, ord(char) - ord('A'), ord('Z') - ord(char) + 1))
         answer += min(ord(char) - ord('A'), ord('Z') - ord(char) + 1)
 
-        # 해당 알파벳 다음 문자의 마지막 A를 확인함.
+        # 해당 문자열의 마지막 A를 확인함.
         after = idx + 1
         while after < len(name) and name[after] == 'A':
             after += 1
