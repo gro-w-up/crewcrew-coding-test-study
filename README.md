@@ -42,6 +42,9 @@
 |--|----|----|--------|
 |2|깊이/너비 우선 탐색|타겟 넘버|[타켓 넘버]|
 |2|깊이/너비 우선 탐색|게임 맵 최단거리|[게임 맵 최단거리]|
+|2|카카오기출문제|캐시|[캐시]|
+|2|카카오기출문제|순위검색|[순위검색]|
+|2|카카오기출문제|뉴스 클러스트링|[뉴스 클러스티링]|
 
 
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
@@ -65,3 +68,6 @@
 
 [타켓 넘버]:https://school.programmers.co.kr/learn/courses/30/lessons/43165
 [게임 맵 최단거리]:https://school.programmers.co.kr/learn/courses/30/lessons/1844
+[캐시]:https://school.programmers.co.kr/learn/courses/30/lessons/17680
+[순위검색]:https://school.programmers.co.kr/learn/courses/30/lessons/72412
+[뉴스 클러스티링]:https://school.programmers.co.kr/learn/courses/30/lessons/17677
