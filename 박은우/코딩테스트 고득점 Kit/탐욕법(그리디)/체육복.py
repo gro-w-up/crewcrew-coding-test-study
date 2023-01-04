@@ -1,6 +1,6 @@
 def solution(n, lost, reserve):
 
-    # print('-------------------')
+    print('-------------------')
 
     # 제한사항
     if n > 30 and n < 2 :
@@ -14,17 +14,17 @@ def solution(n, lost, reserve):
 
     # 모든 학생들이 체육복을 1개씩 가지고 왔다고 가정
     students = [1] * (n)
-    # print('초기 학생들 체육복 배열 :', students)
+    print('초기 학생들 체육복 배열 :', students)
 
     # 도난당한 학생의 체육복 파악 - 1
     for lost_student_no in lost:
         students[lost_student_no - 1] -= 1
-    # print('도난당한 학생의 체육복 : ', students)
+    print('도난당한 학생의 체육복 : ', students)
 
     # 여분이 있는 학생의 체육복 개수 + 1
     for reverse_student_no in reserve:
         students[reverse_student_no - 1] += 1
-    # print('여분이 있는 학생의 체육복 : ', students)
+    print('여분이 있는 학생의 체육복 : ', students)
 
 
     #  빌려주는 처리
@@ -40,7 +40,7 @@ def solution(n, lost, reserve):
             students[student_no] -= 1
             students[student_no -1] += 1;
 
-    # print('빌려준 후 학생들의 체육복 상태 : ', students)
+    print('빌려준 후 학생들의 체육복 상태 : ', students)
 
     for student_no in range(1, n):
         if students[student_no] > 0:
