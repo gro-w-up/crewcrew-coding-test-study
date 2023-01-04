@@ -26,7 +26,7 @@ def solution(number, k):
     for num in number:
 
         while stack and stack[-1] < num and k > 0:
-            # print('stack : {}, stack[-1] : {}, num : {}, k : {}'.format(stack, stack[-1], num, k))
+            print('stack : {}, stack[-1] : {}, num : {}, k : {}'.format(stack, stack[-1], num, k))
             stack.pop()
             k -= 1
         stack.append(num)
