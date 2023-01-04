@@ -25,10 +25,10 @@ def solution(m, n, puddles):
             else:
                 map[i][j] = map[i-1][j] + map[i][j-1]
 
-            # print('i : {}, j : {}, map[i][j] = {}'.format(i, j, map[i][j]))
+            print('i : {}, j : {}, map[i][j] = {}'.format(i, j, map[i][j]))
 
-    # for xy in map:
-        # print(xy)
+    for xy in map:
+        print(xy)
 
     return map[n][m] % 1000000007
 

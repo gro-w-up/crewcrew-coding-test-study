@@ -16,3 +16,8 @@ def solution(numbers, target):
 
 print(solution([1, 1, 1, 1, 1], 3))
 print(solution([4, 1, 2, 1], 4))
+
+# 선행 학습
+# https://www.youtube.com/watch?v=CJiF-muKz30
+# 
+
