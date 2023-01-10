@@ -1,7 +1,6 @@
 import re
 
 def solution(files):
-    answer = []
     file_list = [re.split('([0-9]+)', file) for file in files]
 
     # sorted 정렬 기준 사용하기
