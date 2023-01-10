@@ -8,7 +8,6 @@ def bfs(maps, x, y):
     queue = deque()
     queue.append((x, y)) # 초기화 0, 0
 
-
     cnt = 0
     while queue:
         cnt += 1
