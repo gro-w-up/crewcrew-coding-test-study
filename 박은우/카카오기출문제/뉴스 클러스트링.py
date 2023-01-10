@@ -1,6 +1,5 @@
 from collections import Counter
 
-
 def solution(str1, str2):
     str1_low = str1.lower()
     str2_low = str2.lower()
