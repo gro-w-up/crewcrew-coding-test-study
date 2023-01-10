@@ -82,7 +82,7 @@
 [뉴스 클러스티링]:https://school.programmers.co.kr/learn/courses/30/lessons/17677
 
 [파일명 정렬]:https://school.programmers.co.kr/learn/courses/30/lessons/17686
-[k진수에서 소수 구하기]:https://school.programmers.co.kr/learn/courses/30/lessons/17686
+[k진수에서 소수 구하기]:https://school.programmers.co.kr/learn/courses/30/lessons/92335
 [괄호 회전하기]:https://school.programmers.co.kr/learn/courses/30/lessons/76502
 [압축]:https://school.programmers.co.kr/learn/courses/30/lessons/17684
 [수식 최대화]:https://school.programmers.co.kr/learn/courses/30/lessons/67257
