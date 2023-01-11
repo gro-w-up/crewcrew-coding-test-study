@@ -125,5 +125,7 @@ backend 직군을 선택했고, senior 경력인 지원자 중 코딩테스트 �
 
 """
 이분 탐색, Lower Bound, 그리고 Upper Bound
-이분 탐색이 '원하는 값을 찾는 과정' 이라면 Lower Bound는 '원하는 값 이상이 처음 나오는 위치를 찾는 과정' 이며, Upper Bound는 '원하는 값을 초과한 값이 처음 나오는 위치를 찾는 과정'입니다.
+이분 탐색이 '원하는 값을 찾는 과정' 이라면 
+Lower Bound는 '원하는 값 이상이 처음 나오는 위치를 찾는 과정' 이며, = bisect_left
+Upper Bound는 '원하는 값을 초과한 값이 처음 나오는 위치를 찾는 과정'입니다. == bisect_right
 """
