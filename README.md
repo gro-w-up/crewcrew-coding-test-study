@@ -2,8 +2,8 @@
 
 > **Note** <br/>
 > 1-4주차 코딩테스트 고득점 Kit  
-> 5-6주차 월간코드챌린지  
-> 7-8주차 카카오기출문제  
+> 5-6주차 월간코드챌린지 + 카카오기출문제 (1주 5문제)
+> 7-8주차 월간코드챌린지 + 카카오기출문제 (1주 5문제) 
 
 ---
 ### 1주차 (해시, 스택/큐)
@@ -46,6 +46,15 @@
 |2|카카오기출문제|순위검색|[순위검색]|
 |2|카카오기출문제|뉴스 클러스트링|[뉴스 클러스티링]|
 
+---
+### 5주차 (카카오기출문제, 월간 코드 챌린지)
+|레벨|구분|문제|문제 링크|
+|--|----|----|--------|
+|2|카카오기출문제|파일명 정렬|[파일명 정렬]|
+|2|카카오기출문제|k진수에서 소수 구하기|[k진수에서 소수 구하기]|
+|2|월간코드챌린지|괄호 회전하기|[괄호 회전하기]|
+|2|카카오기출문제|압축|[압축]|
+|2|카카오기출문제|수식 최대화|[수식 최대화]|
 
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
 [위장]:https://school.programmers.co.kr/learn/courses/30/lessons/42578
@@ -71,3 +80,9 @@
 [캐시]:https://school.programmers.co.kr/learn/courses/30/lessons/17680
 [순위검색]:https://school.programmers.co.kr/learn/courses/30/lessons/72412
 [뉴스 클러스티링]:https://school.programmers.co.kr/learn/courses/30/lessons/17677
+
+[파일명 정렬]:https://school.programmers.co.kr/learn/courses/30/lessons/17686
+[k진수에서 소수 구하기]:https://school.programmers.co.kr/learn/courses/30/lessons/92335
+[괄호 회전하기]:https://school.programmers.co.kr/learn/courses/30/lessons/76502
+[압축]:https://school.programmers.co.kr/learn/courses/30/lessons/17684
+[수식 최대화]:https://school.programmers.co.kr/learn/courses/30/lessons/67257
