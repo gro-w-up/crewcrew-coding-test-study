@@ -56,6 +56,16 @@
 |2|카카오기출문제|압축|[압축]|
 |2|카카오기출문제|수식 최대화|[수식 최대화]|
 
+---
+### 6주차 (카카오기출문제, 월간 코드 챌린지)
+|레벨|구분|문제|문제 링크|
+|--|----|----|--------|
+|2|카카오기출문제|이모티콘 할인행사|[이모티콘 할인행사]|
+|2|카카오기출문제|오픈채팅방|[오픈채팅방]|
+|2|카카오기출문제|주차 요금 계산|[주차 요금 계산]|
+|2|카카오기출문제|프렌즈4블록|[프렌즈4블록]|
+|2|카카오기출문제|성격 유형 검사하기|[성격 유형 검사하기]|
+
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
 [위장]:https://school.programmers.co.kr/learn/courses/30/lessons/42578
 [올바른 괄호]:https://school.programmers.co.kr/learn/courses/30/lessons/12909
@@ -86,3 +96,9 @@
 [괄호 회전하기]:https://school.programmers.co.kr/learn/courses/30/lessons/76502
 [압축]:https://school.programmers.co.kr/learn/courses/30/lessons/17684
 [수식 최대화]:https://school.programmers.co.kr/learn/courses/30/lessons/67257
+
+[이모티콘 할인행사]:https://school.programmers.co.kr/learn/courses/30/lessons/150368
+[오픈채팅방]:https://school.programmers.co.kr/learn/courses/30/lessons/42888
+[주차 요금 계산]:https://school.programmers.co.kr/learn/courses/30/lessons/92341
+[프렌즈4블록]:https://school.programmers.co.kr/learn/courses/30/lessons/17679
+[성격 유형 검사하기]:https://school.programmers.co.kr/learn/courses/30/lessons/118666
