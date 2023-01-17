@@ -11,6 +11,7 @@ def solution(survey, choices):
         elif choice < 4: # 비동의에 대한 성격 유형
             score[sv[0]] += 4 - choice
 
+
     # print(f"score : {score}")
 
     answer = []

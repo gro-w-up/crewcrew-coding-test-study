@@ -27,6 +27,7 @@ def solution(users, emoticons):
         total_pay, plus_num = 0, 0
         for rate, price in users: # 만개
             pay = 0
+
             for i, emoticon in enumerate(emoticons): # 7개
                 if case[i] >= rate: # 이모티콘 할인률(case[i]가 rate보다 크기 떄문에 이모티콘 구매
                     pay += emoticon * (100-case[i]) // 100

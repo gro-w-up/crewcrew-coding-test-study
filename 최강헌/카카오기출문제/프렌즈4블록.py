@@ -11,6 +11,7 @@ def solution(m,n,board):
     a = []
 
     while 1: #전체 코드 돌리는 for문
+
         for i in range(m):
             if i+1 != len(list):
                 for j in range(1,n):

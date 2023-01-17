@@ -9,6 +9,7 @@ def solution(record):
     answer = []
     user = dict()
 
+
     for val in record:
         split = val.split(" ")
         if split[0] == "Enter":
