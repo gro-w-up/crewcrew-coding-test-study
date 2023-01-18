@@ -7,33 +7,33 @@ def get_fee(minutes, fees):
 
 
 def solution(fees, records):
-    answer = []
-    stack = {}
-    parking = {}
+    stack = dict()
+    parking = dict()
 
     for record in records:
         time, car, event = record.split()
-        time.split()
         hour, minute = time.split(":")
         minutes = int(hour) * 60 + int(minute)  # 시간 -> 분 환산
 
         if event == 'IN':
             parking[car] = minutes
-        elif event == 'OUT':
+        if event == 'OUT':
             try:
                 stack[car] += minutes - parking[car]
             except:
                 stack[car] = minutes - parking[car]
             del parking[car]  # 출차 차량 삭제
 
-        for car, minute in parking.items():
-            try:
-                stack[car] += 23 * 60 + 59 - minute
-            except:
-                stack[car] = 23 * 60 + 59 - minute
+    print('parking.items() = {}'.format(parking.items()))
+    # 출차 기록 없는 차 23:59 출차 처리
+    for car, minute in parking.items():
+        try:
+            stack[car] += 23 * 60 + 59 - minute
+        except:
+            stack[car] = 23 * 60 + 59 - minute
 
-    answer = [get_fee(time, fees) for car, time in sorted(list(stack.items()), key=lambda x: x[0])]
-    return answer
+    print('stack.items() = {}'.format(stack.items()))
+    return [get_fee(time, fees) for car, time in sorted(list(stack.items()), key=lambda x: x[0])]
 
 
 print(solution([180, 5000, 10, 600],
@@ -73,3 +73,31 @@ records는 하루 동안의 입/출차된 기록만 담고 있으며, 입차된 
 주차장에 없는 차량이 출차되는 경우
 주차장에 이미 있는 차량(차량번호가 같은 차량)이 다시 입차되는 경우
 """
+
+
+def solution(fees, records):
+    parking = dict()
+    stack = dict()
+
+    for record in records:
+        time, car, cmd = record.split()
+        hour, minute = time.split(":")
+        minutes = int(hour) * 60 + int(minute)  # 시간 -> 분 환산
+
+        if cmd == 'IN':
+            parking[car] = minutes
+        elif cmd == 'OUT':
+            try:
+                stack[car] += minutes - parking[car]
+            except:
+                stack[car] = minutes - parking[car]
+            del parking[car]  # 출차 차량 삭제
+
+    # 출차 기록 없는 차 23:59 출차 처리
+    for car, minute in parking.items():
+        try:
+            stack[car] += 23 * 60 + 59 - minute
+        except:
+            stack[car] = 23 * 60 + 59 - minute
+
+    return [get_fee(time, fees) for car, time in sorted(list(stack.items()), key=lambda x: x[0])]
