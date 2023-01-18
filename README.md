@@ -67,6 +67,12 @@
 | 2   |카카오기출문제|프렌즈4블록|[프렌즈4블록]|
 | 2   |카카오기출문제|성격 유형 검사하기|[성격 유형 검사하기]|
 
+---
+### 7주차 (카카오기출문제, 월간 코드 챌린지)
+| 레벨  |구분|문제|문제 링크|
+|-----|----|----|--------|
+| 2   |월간코드챌린지|삼각달팽이|[삼각달팽이]
+
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
 [위장]:https://school.programmers.co.kr/learn/courses/30/lessons/42578
 [올바른 괄호]:https://school.programmers.co.kr/learn/courses/30/lessons/12909
@@ -103,3 +109,5 @@
 [주차 요금 계산]:https://school.programmers.co.kr/learn/courses/30/lessons/92341
 [프렌즈4블록]:https://school.programmers.co.kr/learn/courses/30/lessons/17679
 [성격 유형 검사하기]:https://school.programmers.co.kr/learn/courses/30/lessons/118666
+
+[삼각달팽이]:https://school.programmers.co.kr/learn/courses/30/lessons/68645
