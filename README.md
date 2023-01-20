@@ -72,6 +72,10 @@
 | 레벨  |구분|문제|문제 링크|
 |-----|----|----|--------|
 | 2   |월간코드챌린지|삼각달팽이|[삼각달팽이]
+| 2   |월간코드챌린지|이진 변환 반복하기|[이진 변환 반복하기]
+| 2   |월간코드챌린지|쿼드압축 후 개수 세기|[쿼드압축 후 개수 세기]
+| 3   |월간코드챌린지|풍선 터뜨리기|[풍선 터뜨리기]
+| 3   |카카오기출문제|합승 택시 요금|[합승 택시 요금]
 
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
 [위장]:https://school.programmers.co.kr/learn/courses/30/lessons/42578
@@ -111,3 +115,7 @@
 [성격 유형 검사하기]:https://school.programmers.co.kr/learn/courses/30/lessons/118666
 
 [삼각달팽이]:https://school.programmers.co.kr/learn/courses/30/lessons/68645
+[이진 변환 반복하기]:https://school.programmers.co.kr/learn/courses/30/lessons/70129
+[쿼드압축 후 개수 세기]:https://school.programmers.co.kr/learn/courses/30/lessons/68936
+[풍선 터뜨리기]:https://school.programmers.co.kr/learn/courses/30/lessons/68646
+[합승 택시 요금]:https://school.programmers.co.kr/learn/courses/30/lessons/72413
