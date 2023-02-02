@@ -134,4 +134,4 @@
 [두 큐 합 같게 만들기]:https://school.programmers.co.kr/learn/courses/30/lessons/118667
 [코딩테스트 공부]:https://school.programmers.co.kr/learn/courses/30/lessons/118668
 [메뉴 리뉴얼]:https://school.programmers.co.kr/learn/courses/30/lessons/72411
-[양궁 대회]:https://school.programmers.co.kr/learn/courses/30/lessons/118667
+[양궁 대회]:https://school.programmers.co.kr/learn/courses/30/lessons/92342
