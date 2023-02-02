@@ -77,6 +77,15 @@
 | 3   |월간코드챌린지|풍선 터뜨리기|[풍선 터뜨리기]|
 | 3   |카카오기출문제|합승 택시 요금|[합승 택시 요금]|
 
+---
+### 8주차 (카카오기출문제)
+| 레벨  |구분|문제|문제 링크|
+|-----|----|----|--------|
+| 2   |카카오기출문제|N진수 게임|[N진수 게임]|
+| 2   |카카오기출문제|두 큐 합 같게 만들기|[두 큐 합 같게 만들기]|
+| 3   |카카오기출문제|코딩테스트 공부|[코딩테스트 공부]|
+| 2   |카카오기출문제|메뉴 리뉴얼|[메뉴 리뉴얼]|
+| 2   |카카오기출문제|양궁 대회|[양궁 대회]|
 
 [폰켓몬]:https://school.programmers.co.kr/learn/courses/30/lessons/1845
 [위장]:https://school.programmers.co.kr/learn/courses/30/lessons/42578
@@ -120,3 +129,9 @@
 [쿼드압축 후 개수 세기]:https://school.programmers.co.kr/learn/courses/30/lessons/68936
 [풍선 터뜨리기]:https://school.programmers.co.kr/learn/courses/30/lessons/68646
 [합승 택시 요금]:https://school.programmers.co.kr/learn/courses/30/lessons/72413
+
+[N진수 게임]:https://school.programmers.co.kr/learn/courses/30/lessons/17687
+[두 큐 합 같게 만들기]:https://school.programmers.co.kr/learn/courses/30/lessons/118667
+[코딩테스트 공부]:https://school.programmers.co.kr/learn/courses/30/lessons/118668
+[메뉴 리뉴얼]:https://school.programmers.co.kr/learn/courses/30/lessons/72411
+[양궁 대회]:https://school.programmers.co.kr/learn/courses/30/lessons/118667
