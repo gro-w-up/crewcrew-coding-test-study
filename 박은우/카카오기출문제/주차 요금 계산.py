@@ -7,6 +7,7 @@ def get_fee(minutes, fees):
 
 
 def solution(fees, records):
+    print('-------------------------')
     stack = dict()
     parking = dict()
 
@@ -20,8 +21,10 @@ def solution(fees, records):
         if event == 'OUT':
             try:
                 stack[car] += minutes - parking[car]
+                print("try car = {}, stack[car] = {}, parking[car] = {}".format(car, stack[car], parking[car]))
             except:
                 stack[car] = minutes - parking[car]
+                print("except car = {}, stack[car] = {}, parking[car] = {}".format(car, stack[car], parking[car]))
             del parking[car]  # 출차 차량 삭제
 
     print('parking.items() = {}'.format(parking.items()))
