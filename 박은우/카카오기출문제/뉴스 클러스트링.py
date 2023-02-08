@@ -10,15 +10,21 @@ def solution(str1, str2):
     for i in range(len(str1_low) - 1):
         if str1_low[i].isalpha() and str1_low[i + 1].isalpha():
             str1_lst.append(str1_low[i] + str1_low[i + 1])
+            print('str1_lst : {}', str1_low[i] + str1_low[i + 1])
     for j in range(len(str2_low) - 1):
         if str2_low[j].isalpha() and str2_low[j + 1].isalpha():
             str2_lst.append(str2_low[j] + str2_low[j + 1])
+            print('str2_lst : {}', str2_low[i] + str2_low[i + 1])
 
     counter1 = Counter(str1_lst)
     counter2 = Counter(str2_lst)
-
+    
+    # 교집합
     inter = list((counter1 & counter2).elements())
+    print(inter)
+    # 합집합
     union = list((counter1 | counter2).elements())
+    print(union)
 
     # 자카드 유사도 계산
     if len(union) == 0 and len(inter) == 0:
